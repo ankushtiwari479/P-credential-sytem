@@ -1,1 +1,1 @@
-web: node verifiable-credentials-server/server.js
+web: node server.js
