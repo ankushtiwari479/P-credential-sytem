@@ -25,6 +25,7 @@ function App() {
       <Routes>
           {/* Student Routes */}
           <Route path="/student/signup" element={<StudentSignup />} />
+          <Route path="/" element={<StudentSignup />} />
           <Route path="/student/login" element={<StudentLogin />} />
 
           {/* Admin Routes */}
